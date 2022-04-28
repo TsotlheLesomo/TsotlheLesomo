@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-1{
+    flex-basis: 43%;
+    flex-grow: 1;
+    background-image: url(blog2.png);
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    color: black;
+}
+.col-2{
+    flex-basis: 57%;
+    flex-grow: 1;
+    padding: 40px 80px;
+    background-image: url(Logo_Maker_com.ist.logomaker_Thu_Apr_28_10_07_30_GMT_02_00_2022_1651133250514.jpg);
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 80px;
+    cursor: pointer;
+}
+.search-icon{
+    width: 25px;
+    cursor: pointer;
+}
+.left-text{
+    width: 70%;
+    margin: 180px auto 0;
+}
+.left-text h1{
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Permanent Marker', cursive;
+}
+.left-text p{
+    color: black;
+    font-weight: bolder;
+    font-size: 19px;
+    line-height: 24px;
+    margin: 30px 0;
+    font-family: 'Permanent Marker', cursive; 
+}
+.left-text a img{
+    width: 60px;
+    margin-right: 20px;
+}
+.left-text a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: red;
+    margin-top: 30px;
+}
+.col-2 ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+.col-2 ul li a{
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.btn{
+    border: 3px solid #ff5a5a;
+    padding: 10px 30px;
+}
+.right-text{
+    margin-top: 160px;
+}
+.right-text h2{
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-family: 'Permanent Marker', cursive;
+}
+.right-text h3{
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: #333;
+    font-family: 'Permanent Marker', cursive;
+}
+.right-text p{
+    font-size: 22px;
+    margin-bottom: 30px;
+    color: black;
+    font-family: 'Permanent Marker', cursive;
+}
+.right-text a{
+    text-decoration: none;
+    display: inline-block;
+    background: #FF5a5a;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding: 15px 50px;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    box-shadow: 0 5px 10px rgb(255, 90, 90, 0.7);
+    transition: transform 0.5s;
+}
+.right-text a:hover{
+    transform: translateY(-6px);
+}
+.sci{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sci li{
+    list-style: none;
+}
+.sci li a{
+    display: inline-block;
+    margin: 5px 0;
+    transform: scale(0.6);
+}
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.title h2{
+	color: black;
+	font-size: 75px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+.card{
+	height: 365px;
+	width: 335px;
+	padding: 20px 35px;
+	background: pink;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.card i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: #f9004d;
+
+}
+h5{
+	color: black;
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+.pra p{
+	color: black;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+.card .button{
+	background-color:#f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 22px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+.card .button:hover{
+	background-color: transparent;
+	border: 2px solid #f9004d;
+	cursor: pointer;
+}
